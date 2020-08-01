@@ -11,6 +11,11 @@ body {
     font-family: "Exo", sans-serif;
 }
 
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
 li a {
     color: white;
     text-decoration: none;
@@ -148,4 +153,74 @@ footer p {
 
 .wrapper {
     margin: 0px 30px;
+}
+
+.contact-form {
+    background-color: #4D4D4D;
+}
+
+.contact-info {
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.contact-info > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-info div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.contact-info h1 {
+    font-size: 60px;
+}
+
+form {
+    margin: auto;
+    width: 460px;
+    padding: 30px 0px;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 460px;
+    font-size: 15px;
+    height: 40px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-family: "Abel", sans-serif;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 5px;
+}
+
+textarea {
+    height: 120px;
+    padding: 10px 5px;
+}
+
+label {
+    padding: 10px 0px;
+    display: inline-block;
+}
+
+input {
+    display: block;
+}
+
+input[type=submit] {
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    border: 0;
+    font-family: "Abel", sans-serif;
+    font-size: 15px;
+    color: white;
 }

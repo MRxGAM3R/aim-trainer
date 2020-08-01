@@ -253,7 +253,11 @@ input[type=submit] {
 .video iframe {
     margin: 30px auto;
     display: block;
+    width: 90vw;
+    height: 50.62vw;
+    position: relative;
 }
+
 
 .social-info h1 {
     font-size: 60px;
@@ -329,5 +333,27 @@ input[type=submit] {
     #logo {
 
         margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .twitter-timeline {
+        width: 90vw;
+    }
+
+    .social-info div a img {
+        width: 90vw;
+    }
+
+    .contact-info div a img {
+        width: 90vw;
+    }
+
+    form {
+        width: 90vw;
+    }
+
+    input[type=text], input[type=email], textarea {
+        width: 100%;
     }
 }

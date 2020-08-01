@@ -198,7 +198,7 @@ input[type=text], input[type=email], textarea {
     font-family: "Abel", sans-serif;
     border-radius: 5px;
     border: 0;
-    padding-left: 5px;
+    padding-left: 8px;
 }
 
 textarea {
@@ -223,4 +223,38 @@ input[type=submit] {
     font-family: "Abel", sans-serif;
     font-size: 15px;
     color: white;
+}
+
+.social-info {
+    height: 780px;
+    text-align: center;
+    position: relative;
+}
+
+
+.social-info > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.social-info div a {
+    display: block;
+}
+
+.social-info div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.video iframe {
+    margin: 30px auto;
+    display: block;
+}
+
+.social-info h1 {
+    font-size: 60px;
 }
